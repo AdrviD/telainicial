@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/reator1"
+            android:icon="@drawable/ic_reator1"
+            android:title="Reator 1" />
+        <item
+            android:id="@+id/reator2"
+            android:icon="@drawable/ic_fermentorair_500x500"
+            android:title="Reator 2" />
+        <item
+            android:id="@+id/tanque1"
+            android:icon="@drawable/ic_batch_reactor2"
+            android:title="Tanque 1" />
+        <item
+            android:id="@+id/tanque2"
+            android:icon="@drawable/ic_tanque2"
+            android:title="Tanque 2" />
+
+            <item
+                android:id="@+id/caminhao"
+                android:icon="@drawable/ic_caminhao"
+                android:title="Caminhão de transporte" />
+            <item
+                android:id="@+id/voltar"
+                android:icon="@drawable/ic_voltar"
+                android:title="Voltar" />
+
+     </group>
+
+
+    </menu>
